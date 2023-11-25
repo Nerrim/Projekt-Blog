@@ -14,7 +14,7 @@
         $sql = "select * from posty;";
         $dane = mysqli_query($conn, $sql);
         while ($row = mysqli_fetch_assoc($dane)) {
-            $tresc = substr($row["tresc"],0,300);
+            $tresc = substr($row["tresc"],0,200);
             echo '<a href="./posty.php?id='.$row["id"].'">
             <div class="post">
              <span class="tytul">'.$row["tytul"].'</span><br>
