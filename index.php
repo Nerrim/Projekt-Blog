@@ -7,6 +7,12 @@
 </head>
 <body>
     <main>
+     <div id="hdr">   
+    <h1 id="ttl">
+        Blog TAK
+    </h1>
+     </div>
+        
     <?php include 'baza.php';?>
     <div class="posty">
         <?php
