@@ -7,6 +7,7 @@ if($_POST["haslo"]!="admin") header("Location: ./login.php");
 <head>
     <meta charset="UTF-8">
     <title>Admin</title>
+    <link rel="stylesheet" href="css/admin.css">
 </head>
 <body>
     <form action="dodajStrone.php" method="post">
