@@ -2,6 +2,16 @@ body{
     margin: 0;
     width: 100%;
 }
+#hdr {
+    display: flex;
+    flex-direction: column;
+    width:60%;
+    background-color: lightgray;
+}
+#ttl {
+    color: white;
+    font-size: 15%;
+}
 .posty{
     display: flex;
     flex-direction: column;
