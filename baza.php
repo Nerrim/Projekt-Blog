@@ -1,7 +1,7 @@
 <?php
 $adres = "localhost";
-$uzytkownik = "root";
-$haslo = "";
+$uzytkownik = "ziom";
+$haslo = "zaq1@WSX";
 $baza = "blog";
 $conn = mysqli_connect($adres,$uzytkownik,$haslo,$baza);
 ?>
