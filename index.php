@@ -6,11 +6,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <main>
-     
-    
-
-        
+    <main>    
     <?php include 'baza.php';?>
     <div class="posty">
         <h1 id="ttl"> Blog TAK </h1>
