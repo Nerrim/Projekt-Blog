@@ -7,14 +7,13 @@
 </head>
 <body>
     <main>
-     <div id="hdr">   
-    <h1 id="ttl">
-        Blog TAK
-    </h1>
-     </div>
+     
+    
+
         
     <?php include 'baza.php';?>
     <div class="posty">
+        <h1 id="ttl"> Blog TAK </h1>
         <?php
         $sql = "select * from posty;";
         $dane = mysqli_query($conn, $sql);
