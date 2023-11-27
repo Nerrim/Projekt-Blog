@@ -1,0 +1,45 @@
+.tytul{
+    width:800px;
+    height:50px;
+    margin:auto;
+    font-size:30px;
+}
+p{
+    margin:auto;
+    color: white;
+    font-size:300%;
+    text-align:center;
+    text-shadow: 0px 1px 6px rgba(117, 117, 117, 1);
+}
+.tresc{
+    width:800px;
+    margin:auto;
+    height:600px;
+}
+body{
+    margin:0;
+    height:100%;
+    display: flex;
+    justify-content: center;
+}
+main{
+    width:80%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+}
+.tresc:focus, .tytul:focus{
+    outline:red;
+}
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image:url(https://previews.123rf.com/images/markoaliaksandr/markoaliaksandr1910/markoaliaksandr191000846/132061208-ciemna-tekstura-w%C4%99gla-wydobycie-w%C4%99gla-paliwa-kopalne-zanieczyszczenie-%C5%9Brodowiska.jpg);
+}
+.przeslij{
+    border:2px #161616 solid;
+    width:200px;
+    height:50px;
+    font-size:150%;
+    margin:auto;
+}
